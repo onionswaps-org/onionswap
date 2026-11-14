@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://onionswap-3.vercel.app"><img alt="Live demo" src="https://img.shields.io/badge/Live%20Demo-onionswap--3.vercel.app-8b5cf6" /></a>
+  <a href="https://onionswaps.org"><img alt="Live" src="https://img.shields.io/badge/Live-onionswaps.org-8b5cf6" /></a>
   <img alt="Network" src="https://img.shields.io/badge/Network-Solana-9945FF" />
   <img alt="Powered by Jupiter" src="https://img.shields.io/badge/Powered%20by-Jupiter-c8f169" />
   <img alt="License" src="https://img.shields.io/badge/License-MIT-blue" />
@@ -38,20 +38,18 @@ OnionSwap is a single-page web app for Solana. It gives you one clean interface 
 - **In-app Docs** — overview, getting started, swap, transfer, networks & endpoints, safety and troubleshooting, built into the app
 - **No account, no deposits** — connect a wallet and go
 
-## Live demo
+## Live site
 
-**https://onionswap-3.vercel.app**
+**https://onionswaps.org**
 
 ## Quick start
 
 OnionSwap is a single self-contained `index.html` — there is no build step.
 
-```bash
-git clone https://github.com/onionswaps-org/onionswap.git
-cd onionswap
-# open index.html in a browser, or serve it:
-npx serve .
-```
+    git clone https://github.com/onionswaps-org/onionswap.git
+    cd onionswap
+    # open index.html in a browser, or serve it:
+    npx serve .
 
 ### Deploy your own
 
@@ -60,19 +58,17 @@ npx serve .
 
 ## Project structure
 
-```
-.
-├── index.html                  # The entire app (UI, styles and logic in one file)
-├── logo.png                    # OnionSwap mascot logo
-├── .github/
-│   └── workflows/
-│       └── pages.yml           # GitHub Pages deployment
-├── CHANGELOG.md
-├── CONTRIBUTING.md
-├── SECURITY.md
-├── LICENSE
-└── README.md
-```
+    .
+    ├── index.html                  # The entire app (UI, styles and logic in one file)
+    ├── logo.png                    # OnionSwap mascot logo
+    ├── .github/
+    │   └── workflows/
+    │       └── pages.yml           # GitHub Pages deployment
+    ├── CHANGELOG.md
+    ├── CONTRIBUTING.md
+    ├── SECURITY.md
+    ├── LICENSE
+    └── README.md
 
 ## How it works
 
@@ -93,7 +89,6 @@ See [SECURITY.md](SECURITY.md) for how to report a vulnerability.
 
 ## Roadmap
 
-- Point the in-site X and GitHub buttons at the official accounts
 - Additional public RPC endpoints for balance reads
 - Continued UI polish of the swap and transfer flows
 
@@ -104,3 +99,4 @@ Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 ## License
 
 [MIT](LICENSE) © 2026 OnionSwap
+
